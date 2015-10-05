@@ -15,12 +15,7 @@ img.portfolio-img{
 
 /** filters list **/
 #filter-list {
-	/* display: block; */
-	/* width: inherit; */
 	text-align: right;
-	/* margin-bottom: 25px; */
-	/* padding: 20px; */
-	/* width: 249px; */
 	float: right;
 	z-index: 999;
 	position: relative;
@@ -63,13 +58,18 @@ img.portfolio-img{
 	min-height: 380px;
 }
 
+@media (min-width:691px ) and (max-width:891px ){
+    #portfolio .item {
+        width: 160px !important;
+    }
+}
+
+
 #portfolio .item {
 	display: none;
 	opacity: 0;
 	width: 30%;
 	vertical-align: top;
-	/* margin-bottom: 25px; */
-	/* margin-right: 20px; */
 	color: #fff;
 	font-size: 30px;
 	text-align: center;

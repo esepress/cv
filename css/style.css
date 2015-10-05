@@ -8,19 +8,31 @@ body {
     height: 328px;
     margin-top: 23px;
 }
+section.experience {
+    margin-top: -85px;
 }
+}
+
+
 @media (max-width:691px ){
     .circ-bg {
         height: 400px;
         margin-top: -49px;
         margin-bottom: 150px;
     }
+    .circ-bg.software-circle {
+        position: relative;
+        margin-bottom: 250px;
+    }
     #filter-list {
-    float: none !important;
-    text-align: center !important;
-    width: 265px !important;
-    margin: 0 auto !important;
-}
+        float: none !important;
+        text-align: center !important;
+        width: 265px !important;
+        margin: 0 auto !important;
+    }
+    .circ-bg.exp-circ {
+        margin-top: -160px;
+    }
 }
 
 p {
@@ -388,4 +400,3 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
-
