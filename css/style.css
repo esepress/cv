@@ -1,4 +1,7 @@
-/*GLobal*/
+
+/* ----------------------------------------------------
+    GLobal
+------------------------------------------------------- */
 
 body {
     overflow-x: hidden;
@@ -8,11 +11,13 @@ body {
     height: 328px;
     margin-top: 23px;
 }
-section.experience {
+section#experience {
     margin-top: -85px;
 }
 }
-
+.webicon.svg-webicon {
+    width: 64px;
+}
 
 @media (max-width:691px ){
     .circ-bg {
@@ -107,6 +112,11 @@ hr.star-primary:after {
     display: table;
 }
 
+
+/* ----------------------------------------------------
+    Header
+------------------------------------------------------- */
+
 header {
     text-align: center;
     color: #fff;
@@ -177,7 +187,9 @@ header .intro-text .skills {
 }
 
 
-/* Call to action */
+/* ----------------------------------------------------
+    Call to action
+------------------------------------------------------- */
 
 
 section {
@@ -187,7 +199,7 @@ section {
 .icon-text span {
     font-size: 28px;
 }
-section.call-to-action {
+section#call-to-action {
     background-color: black;
     color: white;
 }
@@ -220,7 +232,9 @@ section.success a.active {
         padding-top: 75px;
     }
 }
-/*Hire Section*/
+/* ----------------------------------------------------
+    Hire Job
+------------------------------------------------------- */
 
 .hire-job{
     background-color: ghostwhite;
@@ -236,14 +250,18 @@ button.hire-button.text-center {
     padding: 5px 10px;
 }
 
-/* Block Text */
+/* ----------------------------------------------------
+    Blocks
+------------------------------------------------------- */
 
 h3.title-text {
     font-size: 19px;
     font-weight: 100;
 }
 
-/*Testimonial*/
+/* ----------------------------------------------------
+    Testimonial
+------------------------------------------------------- */
 @media (min-width: 893px){
     .test-bg {
         background-color: ghostwhite;
@@ -252,6 +270,19 @@ h3.title-text {
     .circ-bg {
         background-color: ghostwhite;
     }
+}
+
+p.job-testimonial {
+    font-size: 17px;
+}
+
+.next-client{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.client {
+    cursor: pointer;
 }
 div.test-1,.test-2,.test-3 {
     color: black;
@@ -271,34 +302,17 @@ img.img-test {
     top: 30px;
 }
 
-.test-1:after , .test-2:after , .test-3:after{
-    width: 3px;
-    height: 85px;
-    position: absolute;
-    text-align: center;
-    right: 0;
-    z-index: 1;
-    content: '';
-    background: red;
-}
-.test-1:after{ 
-    top: 10px;
-}
 
-.test-2:after{
-    bottom: 123px;
-}
-.test-3:after{
-    bottom: 10px;
-}
-
-.changeafter:after{
-    content: '';
-    background: transparent !important;
+.client.redmark {
+    border-right: 3px solid red;
+    margin-right: -15px;
+    padding-right: 15px;
 }
 
 
-/*Experience*/
+/* ----------------------------------------------------
+    Experience
+------------------------------------------------------- */
 
 .text-side-right,.text-side-left{
     text-align: center;
@@ -322,7 +336,9 @@ p.text-circle {
 }
 
 
-/*Form*/
+/* ----------------------------------------------------
+    Form
+------------------------------------------------------- */
 
 .form-group label{
     /*color: white;*/
@@ -335,7 +351,11 @@ p.text-circle {
     padding: 41px;
     background-size:cover;
 }
-/*Footer*/
+
+/* ----------------------------------------------------
+    Footer
+------------------------------------------------------- */
+
 section#footer {
     background-color: black;
     padding: 19px 0;
