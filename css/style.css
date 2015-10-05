@@ -3,6 +3,25 @@
 body {
     overflow-x: hidden;
 }
+@media (min-width:691px ){
+.circ-bg {
+    height: 328px;
+    margin-top: 23px;
+}
+}
+@media (max-width:691px ){
+    .circ-bg {
+        height: 400px;
+        margin-top: -49px;
+        margin-bottom: 150px;
+    }
+    #filter-list {
+    float: none !important;
+    text-align: center !important;
+    width: 265px !important;
+    margin: 0 auto !important;
+}
+}
 
 p {
     font-size: 20px;
@@ -145,55 +164,16 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
 
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
+/* Call to action */
 
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
-.navbar {
-    text-transform: uppercase;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
 
 section {
     padding: 70px 0;
+}
+
+.icon-text span {
+    font-size: 28px;
 }
 section.call-to-action {
     background-color: black;
@@ -228,6 +208,22 @@ section.success a.active {
         padding-top: 75px;
     }
 }
+/*Hire Section*/
+
+.hire-job{
+    background-color: ghostwhite;
+    padding: 50px 0;
+    margin-top: -68px;
+}
+
+button.hire-button.text-center {
+    margin: 0 auto;
+    display: block;
+    background-color:transparent;
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
 /* Block Text */
 
 h3.title-text {
@@ -236,12 +232,15 @@ h3.title-text {
 }
 
 /*Testimonial*/
-
-.test-bg {
-    background-color: ghostwhite;
-    height: 328px;
+@media (min-width: 893px){
+    .test-bg {
+        background-color: ghostwhite;
+        height: 328px;
+    }
+    .circ-bg {
+        background-color: ghostwhite;
+    }
 }
-
 div.test-1,.test-2,.test-3 {
     color: black;
     padding: 17px 30px 5px;
@@ -289,8 +288,18 @@ img.img-test {
 
 /*Experience*/
 
-.text-side-right{
+.text-side-right,.text-side-left{
+    text-align: center;
+}
+
+@media (min-width: 691px){
+
+   .text-side-right{
     text-align: right;
+    } 
+    .text-side-left {
+    text-align: left;
+    } 
 }
 
 p.text-circle {
