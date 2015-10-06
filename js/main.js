@@ -11,7 +11,6 @@
 $(function() {
     $('.text-testimonial').hide();
     $('#testimonial-1').show( "slow" );
-
     $('.client').on('click', function(e){
         e.preventDefault();
         var testimonial = $(this).data('testimonial_id');
@@ -20,8 +19,6 @@ $(function() {
         $('.client').removeClass('redmark');
         $(this).addClass('redmark');
     });
-
-
 });
 
 
