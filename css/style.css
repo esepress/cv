@@ -19,6 +19,13 @@ section#experience {
     width: 64px;
 }
 
+.sm-title {
+    position: relative;
+    top: 26px;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+
 @media (max-width:768px ){
     .circ-bg {
         height: 400px;
@@ -38,6 +45,9 @@ section#experience {
     .circ-bg.exp-circ {
         margin-top: -160px;
     }
+    .descrip-text {
+    margin-top: 329px;
+}
 }
 
 p {
@@ -119,8 +129,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: url(../img/home.jpg) no-repeat center center fixed; 
+    color: #000;
+    background: url(../img/home.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -230,6 +240,12 @@ section.success a.active {
 
     section.first {
         padding-top: 75px;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .social {
+        margin-top: 9px;
     }
 }
 /* ----------------------------------------------------
