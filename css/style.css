@@ -27,7 +27,9 @@ section#experience {
 }
 
 .sm-title-ex{
-    margin-top: 15px;
+    position: relative;
+    top: 74px;
+    margin-top: 32px;
 }
 
 @media (max-width:768px ){
