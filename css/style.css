@@ -28,7 +28,8 @@ section#experience {
 
 .sm-title-ex{
     position: relative;
-    top: 16px;
+    top: 74px;
+    margin-top: 32px;
 }
 
 @media (max-width:768px ){
