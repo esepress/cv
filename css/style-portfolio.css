@@ -93,7 +93,9 @@ li.filter {
 	position: relative;
 	top: -25px;
 }
-
+img.portfolio-img {
+    margin-left: -12px;
+}
 @media (max-width: 768px){
 	#filter-list li {
 	    margin: 0 auto;
